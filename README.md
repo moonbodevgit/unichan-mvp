@@ -35,7 +35,7 @@ Do these in order:
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/dogtoshi-sz/unichan-mvp
+git clone https://github.com//unichan-mvp
 cd unichan-mvp
 pnpm install
 pnpm build:packages
@@ -49,8 +49,8 @@ The BRAIN is the AI. Tamagotchi talks to it over HTTP. Leave this running.
 ```bash
 cd BRAIN
 pip install -e .
-unichan onboard   # First time only: API key, workspace
-unichan gateway   # Starts HTTP API on port 18790
+unichan onboard # First time only: API key, workspace
+unichan gateway # Starts HTTP API on port 18790
 ```
 
 First-time setup runs the **onboard wizard** (AI provider, personality, Telegram, gateway port, workspace, Birdeye). You’ll see something like this:
@@ -108,11 +108,11 @@ Video walkthrough: [tomigatchi-example.mp4](tomigatchi-readme/tomigatchi-example
 
 ```
 UNICHAN-MVP/
-├── BRAIN/              # Python nanobot (nanobot + bridge)
-├── TAMAGOTCHI/         # Electron desktop app (UNICHAN Avatar)
-├── CHROME-EXTENSION/   # WXT browser extension
-├── packages/           # Shared packages (stage-ui, server-sdk, etc.)
-├── docs/               # Full documentation
+├── BRAIN/ # Python nanobot (nanobot + bridge)
+├── TAMAGOTCHI/ # Electron desktop app (UNICHAN Avatar)
+├── CHROME-EXTENSION/ # WXT browser extension
+├── packages/ # Shared packages (stage-ui, server-sdk, etc.)
+├── docs/ # Full documentation
 ├── package.json
 └── pnpm-workspace.yaml
 ```
